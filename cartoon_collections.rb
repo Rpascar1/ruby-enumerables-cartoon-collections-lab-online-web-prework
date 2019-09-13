@@ -6,9 +6,9 @@ end
 
 
 
-def summon_captain_planet(array)
-    array.map do |array|array.capitalize + "!"
-end
+def summon_captain_planet(diversity_phrase)
+  new = diversity_phrase.map {|word|word.capitalize + "!"}
+  p new
 end
 
 def long_planeteer_calls(plan_call)
